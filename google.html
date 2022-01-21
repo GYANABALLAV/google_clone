@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <style>
+        .bodywrapper{
+            display: flex;
+            justify-content: center;
+           align-items:  center;
+           flex-direction: column;
+           height: 80vh;
+        }
+        .image img
+        {
+            object-fit: contain;
+            height: 100px;
+        }
+        .search{
+            display: flex;
+            align-items: center;
+            border: 1px solid lightgrey;
+            padding: 10px 20px;
+            border-radius: 999px;
+            height:30px;
+            width: 75vw;
+            max-width: 560px;
+            margin-top: 30px;
+        }
+        .search input{
+            border: none;
+            outline: none;
+            padding: 10px 20px;
+            flex: 1;
+        }
+        .button_container{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+        }
+        .button_container button{
+            margin:10px;
+            padding:10px 20px;
+            border: none;
+            cursor: pointer;
+            background-color: #f8f9fa;
+            outline: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bodywrapper">
+        <div class="image">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google"/>
+        </div>
+
+        <div class="mainseearchclass">
+            <div class="search"><span class="material-icons">
+                search
+                </span>
+                <input type="text"/>
+                <span class="material-icons">
+                    mic
+                    </span>
+            </div>
+            
+                <div class="button_container">
+                    <button>Google search</button>
+                    <button>I am feeling lucky</button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
